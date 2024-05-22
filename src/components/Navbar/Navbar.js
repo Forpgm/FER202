@@ -4,16 +4,16 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="container">
-          <ul className="navbar">
-            <li>
-              <a href="#home">Home</a>
+        <nav>
+          <ul className="nav">
+            <li className="nav-item">
+              <a href="#home">HOME</a>
             </li>
-            <li>
-              <a href="#news">News</a>
+            <li className="nav-item">
+              <a href="#news">NEWS</a>
             </li>
-            <li>
-              <a href="#contact">Content</a>
+            <li className="nav-item">
+              <a href="#contact">CONTENT</a>
             </li>
           </ul>
         </nav>

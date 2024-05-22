@@ -3,10 +3,9 @@ import "./Footer.css";
 export class Footer extends Component {
   render() {
     return (
-      <div className=" container footer">
-        <h4>
-          copyright
-          <i class="fa-solid fa-copyright"></i>
+      <div className="footer text-center">
+        <h4 className="fs-6 text">
+          copyright <i class="fa-solid fa-copyright"> </i> 2022
         </h4>
       </div>
     );

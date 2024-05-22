@@ -1,5 +1,3 @@
 .footer {
-  display: flex;
-  justify-content: flex-end;
-  background-color: bisque;
+  background-color: rgb(184, 184, 72);
 }

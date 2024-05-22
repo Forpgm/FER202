@@ -1,0 +1,12 @@
+.text-center :nth-child(p, h3) {
+  text-align: center;
+}
+.card {
+  padding: 1rem;
+  border: #ccc 1px dotted;
+  margin: 0.7rem 0;
+  overflow: hidden;
+}
+.card-img {
+  object-fit: cover;
+}
